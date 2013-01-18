@@ -1,0 +1,16 @@
+<package>
+  <description brief="arl_RVO2_3D">
+
+     arl_RVO2_3D
+
+  </description>
+  <author></author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/arl_RVO2_3D</url>
+  <depend package="roscpp"/>
+  <depend package="eigen"/>
+
+</package>
+
+
