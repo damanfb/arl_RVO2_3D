@@ -62,7 +62,7 @@
 #include <cmath>
 
 #include "Definitions.h"
-#include "KdTree.h"
+#include "KdTree.cpp" //changed from .h
 
 namespace RVO
 {

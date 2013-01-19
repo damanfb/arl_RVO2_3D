@@ -81,6 +81,9 @@ class RVOSimulator;
 class KdTree
 {
 private:
+
+	friend class Agent;
+	friend class RVOSimulator;
 	/*!
 	 *  @brief		Defines an agent <i>k</i>d-tree node.
 	 */
@@ -142,8 +145,7 @@ private:
 	std::vector<AgentTreeNode> agentTree_;
 	RVOSimulator* sim_;
 
-	friend class Agent;
-	friend class RVOSimulator;
+
 };
 }
 
